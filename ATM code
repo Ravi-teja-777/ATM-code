@@ -1,0 +1,23 @@
+while True:
+   amount = int(input("\nEnter amount : "))
+   while amount!=0:
+       print("2000rs notes : ", amount//2000)
+       amount=amount%2000
+       print("500rs notes  : ", amount//500)
+       amount=amount%500
+       print("200rs notes  : ", amount//200)
+       amount=amount%200
+       print("100rs notes  : ", amount//100)
+       amount=amount%100
+       print("50rs notes   : ", amount//50)
+       amount=amount%50
+       print("20rs notes   : ", amount//20)
+       amount=amount%20
+       print("10rs notes   : ", amount//10)
+       amount=amount%10
+       print("5rs notes    : ", amount//5)
+       amount=amount%5
+       print("2rs notes    : ", amount//2)
+       amount=amount%2
+       print("1rs notes    : ", amount//1)
+       amount=amount%1
